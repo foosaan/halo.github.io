@@ -1,0 +1,55 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e6e6e6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.birthday-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    color: #e44d26; /* Warna oranye */
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Hidden class untuk menyembunyikan elemen */
+.hidden {
+    display: none;
+}
+
+/* Tombol styling */
+button {
+    background-color: #45a049; /* Warna hijau */
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e44d26; /* Warna oranye yang lebih gelap saat dihover */
+}

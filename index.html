@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>klik ini ya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <button id="showBirthdayButton">Klik ini ya ay</button>
+        <div id="birthdayMessage" class="birthday-card hidden">
+            <h1>Halo ayyy</h1>
+            <p>
+                Kamu udah bobo yaa ayy? Pasti cape banget yaa, lelah yaa? Makasih ya kamu bisa jalanin ini semuanya.
+                Aku bangga sama kamu
+            </p>
+            <p>
+                Kalau hari ini kurang baik gpp, Semoga di hari besok dan seterusnya lebih baik lagi.
+                Aku sayang banget sama kamu, makasih udah mau lewatin hari-harinya bareng aku. Aku harap kita sama-sama
+                terus ay,
+                jadi kalau ada apa-apaa dibicarain baik dulu oke?
+            </p>
+            <p>
+                Maaf kalau aku belum bisa ngertiin kamu atau belum bisa jadi yang terbaik buat kamu.
+                Tidur yang nyenyak yaa sayangkuu, harus yakin kalau hari selanjutnya pasti lebih baik. I love u ayy
+            </p>
+            <p>
+                see you 🤍💌
+            </p>
+            
+            <!-- New Button -->
+            <button id="newPageButton" onclick="goToNewPage()">Klik ini lagi yaa</button>
+        </div>
+        
+        <!-- New Page Content (Initially Hidden) -->
+        <div id="newPageContent" class="hidden">
+            <h2></h2>
+            <p></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        function goToNewPage() {
+            // Redirect to the new HTML page
+            window.location.href = 'halaman_baru.html';
+        }
+    </script>
+</body>
+
+</html>
